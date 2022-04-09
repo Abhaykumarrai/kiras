@@ -1,1 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(http://www.kirasdelhi.com/flash/07.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 10s;
+
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-duration: 70s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+
+}
+
+
+@keyframes animate{
+     0%{
+         background-image: url(http://www.kirasdelhi.com//admin//Gallery/Farewell%202.jpg);
+     }20%{
+        background-image: url(http://www.kirasdelhi.com//admin//Gallery/Independence%20Day%2001.jpg);
+    }40%{
+        background-image: url(http://www.kirasdelhi.com//admin//Gallery/MEMBERS%20OF%20SHIVAM%20HOUSE%20GETTING%20CERTIFICATES%20FOR%20BEST%20BOARD.jpg);
+    }60%{
+        background-image: url(http://www.kirasdelhi.com//admin//Gallery/Loha%20Garh%2001.jpg);
+    }80%{
+        background-image: url(http://www.kirasdelhi.com/flash/07.jpg);
+    }
+}
 
