@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>EDUCATION DETAILS</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var n, r
+        n = prompt("Enter Your Name")
+        n = prompt("Enter Your Enrollment Number")
+        document.write(n + "<br>" + r) 
+    </script>
+    <table border="2" width="100%" bgcolor="red" height="9%">
+        <tr>
+            <th width="33%"><a href="#">
+                    <font color="white" size="6">ABOUT US</font>
+                </a></th>
+            <th width="33%"><a href="#">
+                    <font color="white" size="6">OUR SERVICES</font>
+                </a></th>
+            <th width="33%"><a href="#">
+                    <font color="white" size="6">CONTACT US</font>
+                </a></th>
+        </tr>
+    </table>
+    <h1 align="center" style="color:blueviolet">EDUCATION DETAILS</h1>
+    <center>
+        <table border="1" bgcolor="palegreen" cellspacing="5" cellpadding="5">
+            <th>SNo</th>
+            <th>Course/Class</th>
+            <th>Board/University</th>
+            <th>School/College</th>
+            <th>Year of Passing</th>
+            <th>Percentage</th>
+            <tr>
+                <td>01</td>
+                <td>10TH</td>
+                <td>CBSE</td>
+                <td>AAV</td>
+                <td>2018</td>
+                <td>86.9</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>12TH</td>
+                <td>CBSE</td>
+                <td>DKSSS</td>
+                <td>2020</td>
+                <td>81.9</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>BCA</td>
+                <td>GGSIPU</td>
+                <td>KIRAS</td>
+                <td>2020-23</td>
+                <td>81</td>
+            </tr>
+        </table>
+    </center>
+
+    <h1 align="center">
+        <font color="black" size="7"> Details About Subject Books And Professor </font>
+    </h1>
+    <table border="2" width="100%" bgcolor="gold" height="9%">
+        <th width="33%">
+            <font color="Black" size="6">Subjects</font>
+        </th>
+        <th width="33%">
+            <font color="Black" size="6">Books</font>
+        </th>
+        <th width="33%">
+            <font color="Black" size="6">Professor</font>
+        </th>
+        <tr>
+            <td>
+                <ol>
+                    <li>Mathematics</li>
+                    <li>Web Technology</li>
+                    <li>Java</li>
+                    <li>Software Engineering</li>
+                    <li>Computer Network</li>
+                </ol>
+            </td>
+            <td>
+                <ul>
+                    <li>RD Sharma</li>
+                    <li>WT Master</li>
+                    <li>Java Master</li>
+                    <li>SE Master</li>
+                    <li>CN Master</li>
+                </ul>
+            </td>
+            <td>
+                <dl>
+                    <dt>--Kunal Anand</dt>
+                    <dd>Professor for Mathematics</dd>
+                    <dt>--Meenakshi Verma</dt>
+                    <dd>Professor for Web Technology</dd>
+                    <dt>--Mitanshi Gupta</dt>
+                    <dd>Professor for Java</dd>
+                    <dt>--Somdatt Kaushik</dt>
+                    <dd>Professor for Software Engineering</dd>
+                    <dt>--Dr. Rajeev Kumar</dt>
+                    <dd>Professor for Computer Network</dd>
+                </dl>
+            </td>
+        </tr>
+
+    </table>
+    <h1 align="center">
+        <font color="darkslateblue" size="7">Click On The Book Which you Want To Download</font>
+    </h1>
+    <table border="5" width="100%" bgcolor="white" height="9%">
+        <tr>
+            <td>
+                <img src="https://www.thebooks24.com/storage/products/medium/20210914105930_2844.jpg" alt="imagemap"
+                    usemap="#sam" height="552" width="1250s">
+                <map name="#sam">
+                    <area shape="rect" coords="474,331,1319,917" href="http://localhost:5500/?#" alt="book1">
+                    <area shape="rect" coords="484,301,1719,817" href="http://localhost:5500/?#" alt="book2">
+                    <area shape="rect" coords="474,731,1569,717" href="http://localhost:5500/?#" alt="book3">
+                    <area shape="rect" coords="464,431,1316,997" href="http://localhost:5500/?#" alt="book4">
+
+                </map>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
